@@ -1,11 +1,17 @@
-// INDEX.JS //
+const Employee = require("./lib/Employee");
+const Engineer = require("./lib/engineer");
+const Intern = require("./lib/intern");
+const Manager = require("./lib/manager");
+const fs = require("fs")
+
+const Inquirer = require("inquirer");
+const require = 
 
 // require all of your classes/constructors, (Manager, Engineer, Intern)
 // require packages needed (inquirer, path, fs)
 
-// set up an empty array for the Team Members
-
-// set up functions for iniitalizing the app, creating a manager, determining which type of employee the user wants to add, adding each member type, and building the team
+teamMembers = [];
+// set up functions for initalizing the app, creating a manager, determining which type of employee the user wants to add, adding each member type, and building the team
 
 // function for INITIALIZING ////////////////
 function init() {
