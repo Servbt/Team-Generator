@@ -2,9 +2,12 @@
 
 const Employee = require("../lib/Employee");
 
-test("Can instantiate Employee instance", () => {
-  const e = new Employee();
-  expect(typeof(e)).toBe("object");
+desbribe("Can instantiate Employee instance", () => {
+  it("should have an new object made with the class constructor", ()=> {
+    const e = new Employee();
+    expect(typeof(e)).toBe("object");
+  }
+    )
 });
 
 // this is for the class constructor's this.name

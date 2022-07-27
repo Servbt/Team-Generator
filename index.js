@@ -34,11 +34,11 @@ function init() {
             name: "managerOfficeNumb"
           }
         ])
-  
-      .then((answers) => {
-      const manager = new Manager(answers);
+        .then(({managerName, managerID, managerEmail, managerOfficeNumb}) => {
+          const manager = new Manager(managerName, managerID, managerEmail, managerOfficeNumb);
+          console.log(manager);
         teamMembers.push(manager);
-        console.log(JSON(teamMembers));
+          console.log(teamMembers);
 
       // createTeam();
     })
