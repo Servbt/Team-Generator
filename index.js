@@ -13,7 +13,7 @@ function init() {
     function createManager() {
       inquirer
         .prompt ([
-          {            
+          {
               type: "input",
               message: "Hello Manager! What is your name?",
               name: "managerName"
