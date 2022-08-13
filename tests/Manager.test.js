@@ -2,7 +2,7 @@ const Manager = require('../lib/manager')
 
 test("ckeck and see if employee is generated", ()=>{
     it("should show a new object that extends the employee class", ()=>{
-        const emp = new Manager();
+        const e = new Manager();
         expect(typeof(e)).toBe("object");
     })
 });
