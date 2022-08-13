@@ -1,14 +1,14 @@
 {
   "name": "team-mockup",
   "version": "1.0.0",
-  "description": "## Your Task",
+  "description": "uses the command prompt to generate a web page with a team",
   "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test" : "jest"
   },
   "keywords": [],
   "author": "Arian",
