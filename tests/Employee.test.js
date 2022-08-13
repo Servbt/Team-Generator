@@ -29,17 +29,17 @@ test("Can set id via constructor argument", () => {
 // this is for the class constructor's this.email
 
 test("Can set email via constructor argument", () => {
-  const testValue = "test@test.com";
-  const e = new Employee("Foo", 1, testValue);
-  expect(e.email).toBe(testValue);
+  const emailTest = "test@test.com";
+  const e = new Employee("Foo", 1, emailTest);
+  expect(e.email).toBe(emailTest);
 });
 
 // this is for the class constructor's method for getting a name
 
 test("Can get name via getName()", () => {
-  const testValue = "Alice";
-  const e = new Employee(testValue);
-  expect(e.getName()).toBe(testValue);
+  const nameTest = "Alice";
+  const e = new Employee(nameTest);
+  expect(e.getName()).toBe(nameTest);
 });
 
 // this is for the class constructor's method for getting an id

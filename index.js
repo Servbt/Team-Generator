@@ -1,6 +1,6 @@
 const Employee = require("./lib/Employee");
-// const Engineer = require("./lib/engineer");
-// const Intern = require("./lib/intern");
+const Engineer = require("./lib/engineer");
+const Intern = require("./lib/intern");
 const Manager = require("./lib/manager");
 const fs = require("fs")
 const generateHTML = require('./src/generateHTML')
